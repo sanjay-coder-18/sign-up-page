@@ -1,0 +1,139 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:wght@500&family=Patua+One&family=Philosopher:wght@700&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:wght@500&family=Patua+One&family=Philosopher:wght@700&family=Roboto+Slab:wght@900&display=swap');
+
+
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+.outside{
+    width:100vw;
+    background:linear-gradient(to top left , blue, white);
+    height:100vh;
+    /* margin:50%; */
+
+}
+
+.inside{
+    background-color: rgb(168 162 158);
+    width:400px;
+    
+   position: relative;
+   top:25%;
+   margin:auto;
+   border-radius: 10px;
+   z-index: 2;
+   box-shadow: 10px 10px black;
+}
+
+.head{
+    font-family: 'Lilita One', cursive;
+    padding:3px 20px;
+    
+
+}
+.head p{
+    color:rgb(52, 49, 49);
+}
+.head h1{
+    font-size: 3rem;
+}
+.main{
+    font-family: 'Lilita One', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Philosopher', sans-serif;
+font-size:1rem;
+padding:20px;
+}
+.main p {
+  
+    margin:10px;
+}
+.main p input{
+    width:100%;
+    padding:4px;
+    border-radius: 6px;
+    margin:3px;
+}
+.main p input[type="submit"]{
+    border:none;
+    padding:8px;
+    margin-top:4px;
+    cursor:pointer;
+    font-family: 'Lilita One', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-size: 1rem;
+}
+.main p input[type="submit"]:hover{
+    background-color: blueviolet;
+}
+
+.foot{
+    font-size: 1rem;
+    padding:0 0px 30px 30px;
+    color:rgb(52, 49, 49);
+    
+}
+.foot a{
+    color:black;
+    cursor:pointer;
+
+}
+.foot a:hover{
+    color:blueviolet;
+}
+.c1{
+    width:300px;
+    height:300px;
+    background: linear-gradient(to top left , blue,white);
+    position:absolute;
+    top: 90px;
+    right:30px;
+    border:none;
+    border-radius:100%;
+}
+.c2{
+    
+    width:300px;
+    height:300px;
+    background: linear-gradient(to top left , blue,white);
+    position:absolute;
+    bottom: 90px;
+    left:30px;
+    border:none;
+    border-radius:100%;
+}
+
+.c3{
+    width:150px;
+    height:150px;
+    background: linear-gradient(to top left , blue,white);
+    position:absolute;
+    top: 300px;
+    right:80px;
+    border:none;
+    border-radius:100%;
+}
+.c4{
+    
+    width:100px;
+    height:100px;
+    background: linear-gradient(to top left , blue,white);
+    position:absolute;
+    top: 90px;
+    left:30px;
+    border:none;
+    border-radius:100%;
+}
+
